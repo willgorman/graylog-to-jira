@@ -3,16 +3,15 @@ module github.com/willgorman/graylog-to-jira
 go 1.19
 
 require (
+	github.com/andygrunwald/go-jira v1.16.0
 	github.com/davecgh/go-spew v1.1.1
 	github.com/go-openapi/runtime v0.25.0
 	github.com/martinbaillie/go-graylog v1.0.0
-	github.com/terraform-provider-graylog/terraform-provider-graylog v1.0.4
 )
 
 require (
 	github.com/PuerkitoBio/purell v1.1.1 // indirect
 	github.com/PuerkitoBio/urlesc v0.0.0-20170810143723-de5bf2ad4578 // indirect
-	github.com/andygrunwald/go-jira v1.16.0 // indirect
 	github.com/asaskevich/govalidator v0.0.0-20210307081110-f21760c49a8d // indirect
 	github.com/fatih/structs v1.1.0 // indirect
 	github.com/go-logr/logr v1.2.3 // indirect
@@ -35,7 +34,6 @@ require (
 	github.com/oklog/ulid v1.3.1 // indirect
 	github.com/opentracing/opentracing-go v1.2.0 // indirect
 	github.com/pkg/errors v0.9.1 // indirect
-	github.com/suzuki-shunsuke/go-httpclient v1.0.0 // indirect
 	github.com/trivago/tgo v1.0.7 // indirect
 	go.mongodb.org/mongo-driver v1.8.3 // indirect
 	go.opentelemetry.io/otel v1.11.1 // indirect
